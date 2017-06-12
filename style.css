@@ -1,0 +1,137 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.dark-bg {background-image: linear-gradient(to left, #AC8271, #6783A4, #B2B2B2);
+position: relative;}
+
+.dark-bg::after {
+    background-color: #e5e3e5;
+    bottom: 174px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin-left: 93px;
+    position: absolute;
+    width: 1165px;
+}
+
+.color-bg {
+    background-image:url(img/image-bg.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.section-padding {
+  padding: 60px 80px 0;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.logo h3 a {
+    color: #252c30;
+    display: inline-block;
+    font-weight: 400;
+}
+.section-padding .container {
+    max-width: 100%;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    color: #333;
+    display: inline-block;
+}
+.contant-text {
+  padding: 100px 0 155px;
+  position: relative;
+}
+
+.contant-text h1 {
+    color: #313233;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+body {
+    color: #7f7f7f;
+    line-height: 1.7;
+}
+.readmore-btn {
+    color: #7c5f79;
+    font-weight: 700;
+}
+
+.footer-right ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-right ul li {
+    display: inline-block;
+}
+.footer-right ul li a {
+    display: inline-block;
+    padding: 20px 0 20px 20px;
+}
+.footer-right img {
+    height: 17px;
+    width: 17px;
+}
+.footer-left {
+    padding: 20px 20px 20px 0;
+}
+
